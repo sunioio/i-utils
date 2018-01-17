@@ -1,0 +1,25 @@
+{
+  "name": "io-utils",
+  "version": "1.0.0",
+  "description": "javaScript utils set",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zifan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunioio/io-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "utils",
+    "tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/sunioio/io-utils/issues"
+  },
+  "homepage": "https://github.com/sunioio/io-utils#readme"
+}
