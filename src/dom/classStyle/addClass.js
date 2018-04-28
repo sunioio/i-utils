@@ -1,6 +1,6 @@
-import hasClass from "./has-class";
+import hasClass from "./hasClass";
 
-export default addClass =  (el, cls = '') => {
+const addClass = function (el, cls = '') {
     if (!el) return;
     let curClass = el.className;
     let classes = cls.split(' ');
@@ -21,3 +21,5 @@ export default addClass =  (el, cls = '') => {
         el.className = curClass;
     }
 };
+
+export default addClass;
